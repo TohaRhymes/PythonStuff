@@ -1,0 +1,18 @@
+inFile = open('input.txt')
+outFile = open('table.txt', 'w')
+s = inFile.read()
+inFile.close()
+s = s.replace('\n',', ' )
+outFile.write(s)
+outFile.close()
+#
+# inFile = open('input.txt')
+# outFile = open('table.txt', 'w')
+# s = inFile.read()
+# inFile.close()
+# s = s.replace('   ', '\': ')
+# s = s.replace(' \n', '\n')
+# s = s.replace('\n',',\n\'' )
+# s1 = '\''+s
+# outFile.write(s1)
+# outFile.close()

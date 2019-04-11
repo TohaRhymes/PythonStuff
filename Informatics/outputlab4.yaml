@@ -1,0 +1,77 @@
+--- 
+  monday:  
+	    schedule:  
+		      class1:  
+			        "?today_day": пн 
+			        time:  
+				          lessonTime: 08:20-09:50 
+				          "?parity":  
+				          location: ул.Ломоносова д.9 лит. Е 
+				          room: 3207 ауд. 
+				         
+			        room:  
+				          roomNumber: 3207 ауд. 
+				          location: ул.Ломоносова д.9 лит. Е 
+				         
+			        lesson:  
+				          lessonName: Иностранный язык (Прак) 
+				          "?parity":  
+				          "?teacher":  
+				          "?href": '' 
+				         
+			       
+		      class2:  
+			        "?today_day": пн 
+			        time:  
+				          lessonTime: 10:00-11:30 
+				          "?parity": четная неделя 
+				          location: ул.Ломоносова д.9 лит. А 
+				          room: 2434 ауд. 
+				         
+			        room:  
+				          roomNumber: 2434 ауд. 
+				          location: ул.Ломоносова д.9 лит. А 
+				         
+			        lesson:  
+				          lessonName: Физика (Прак) 
+				          "?parity": четная неделя 
+				          "?teacher": Кислов Денис Алексеевич 
+				          "?href": '' 
+				         
+			       
+		      class3:  
+			        "?today_day": пн 
+			        time:  
+				          lessonTime: 10:00-11:30 
+				          "?parity": нечетная неделя 
+				          location: ул.Ломоносова д.9 лит. А 
+				          room: 2407 ауд. 
+				         
+			        room:  
+				          roomNumber: 2407 ауд. 
+				          location: ул.Ломоносова д.9 лит. А 
+				         
+			        lesson:  
+				          lessonName: Физика (Лаб) 
+				          "?parity": нечетная неделя 
+				          "?teacher": Кислов Денис Алексеевич 
+				          "?href": '' 
+				         
+			       
+		      class4:  
+			        "?today_day": пн 
+			        time:  
+				          lessonTime: 11:40-13:10 
+				          "?parity": нечетная 
+				          location: ул.Ломоносова д.9 лит. А 
+				          room: 2516 ауд. 
+				         
+			        room:  
+				          roomNumber: 2516 ауд. 
+				          location: ул.Ломоносова д.9 лит. А 
+				         
+			        lesson:  
+				          lessonName: История (Прак) 
+				          "?parity": нечетная неделя 
+				          "?teacher": Солоусов Александ Сергеевич 
+				          "?href": ''
