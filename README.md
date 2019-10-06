@@ -1,8 +1,12 @@
 My small programmes, written in Python.
 
-- package _Informatics_ - my labs, that were written for Informatics labs
-- package _RosalindAlgoritms_ - solved problems from _http://rosalind.info_:
+- package _PythonProblems_ - different problems, solved in Python:
+1. [Non-unique Elements](https://py.checkio.org/en/mission/non-unique-elements/)
+2. [Flatten a List](https://py.checkio.org/en/mission/flatten-list/)
+3. [Namespaces and scopes](https://stepik.org/lesson/24460/step/9?unit=6766)
+    
 
+- package _RosalindAlgoritms_ - solved problems from _http://rosalind.info_:
 1. [DNA](http://rosalind.info/problems/dna/)
 2. [RNA](http://rosalind.info/problems/rna/)
 3. [REVC](http://rosalind.info/problems/revc/)
@@ -19,7 +23,5 @@ My small programmes, written in Python.
 14. [GRPH](http://rosalind.info/problems/grph/)
 15. [PMCH](http://rosalind.info/problems/pmch/)
 
--package _PythonProblems_ - different problems, solved in Python:
-1. [Non-unique Elements](https://py.checkio.org/en/mission/non-unique-elements/)
-2. [Flatten a List](https://py.checkio.org/en/mission/flatten-list/)
-    
+- package _Informatics_ - my labs, that were written for Informatics labs
+
