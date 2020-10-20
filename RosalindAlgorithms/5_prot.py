@@ -2,6 +2,7 @@ def grouper(iterable, n):
     args = [iter(iterable)] * n
     return zip(*args)
 
+
 RNA_to_protein = {
     'UUU': 'F',
     'CUU': 'L',
@@ -71,13 +72,13 @@ RNA_to_protein = {
 # inFile = open('input.txt')
 inFile = open('rosalind_prot.txt')
 outFile = open('output.txt', 'w')
-s=str(inFile.read())
+s = str(inFile.read())
 inFile.close
 l = [''.join(i) for i in grouper(s, 3)]
 s2 = ''
 for i in range(len(l)):
-    if(RNA_to_protein[l[i]]=='Stop'):
+    if (RNA_to_protein[l[i]] == 'Stop'):
         break;
-    s2+=RNA_to_protein[l[i]]
+    s2 += RNA_to_protein[l[i]]
 outFile.write(s2)
 outFile.close
